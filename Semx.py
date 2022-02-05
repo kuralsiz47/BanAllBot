@@ -1,6 +1,6 @@
 # CREATED BY @PIROXPOWER || @OpFriDay
 
-from cute import Var
+from choot import Var
 import logging
 import re
 import os
