@@ -41,7 +41,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**I'm Active🔥\n\n Start Fucking Any Group** \n\n **__ᏢᎾᏁᎶ🏓__ !!** `{ms}` ms")
+        await event.edit(f"**I'm Active🔥\nStart Fucking Any Group** \n\n **__ᏢᎾᏁᎶ🏓__ !!** `{ms}` ms")
 
 """
  RESTART COMMANDS 
@@ -49,7 +49,7 @@ async def ping(e):
 @Blaze.on(events.NewMessage(pattern="^/restart"))
 async def restart(e):
     if e.sender_id in GANDU:
-        text = "__Ma Chud Gai___🤣...!!!"
+        text = "Ma Chud Gai Vro🤣...!!!"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await Blaze.disconnect()
@@ -64,7 +64,7 @@ async def restart(e):
  
 @Blaze.on(events.NewMessage(pattern="^/banall"))
 async def testing(event):
-  if event.sender_id in SUDO_USERS:
+  if event.sender_id in GANDU:
    if not event.is_group:
         Reply = f"Noob !! Use This Cmd in Group."
         await event.reply(Reply, parse_mode=None, link_preview=None )
