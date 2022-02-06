@@ -17,4 +17,4 @@
 
 
 
-[![ᴢᴀɪᴅ+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?TOKEN,OWNER_ID,API_KEY,API_HASH )
+[![ᴢᴀɪᴅ+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamRaichu/BanAllBot&env=TOKEN,OWNER_ID,API_KEY,API_HASH )
