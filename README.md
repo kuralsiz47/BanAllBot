@@ -8,7 +8,6 @@
 <p>
 
 <a href="https://t.me/PiroXpower"> Noob Creator </a>     
-  
     <a href="https://t.me/RaichuUpdate"> Support Channel </a> •
     <a href="https://t.me/RaichuOfficial"> Support Chat </a> 
  </p>
