@@ -2,9 +2,6 @@ import logging
 from . import bot
 from pyrogram import Client, idle
 from pyrogram import filters
-from Code import OWNER_USERNAME as own
-from Code.helpers.Decorators import authorized_users_only
-
 
 # Start Bot Command Management
 
@@ -15,7 +12,7 @@ START_BUTTON = [
         InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="t.me/RaichuUpdates")
     ], 
     [
-        InlineKeyboardButton("Owned By", url="t.me/{own}"),
+        InlineKeyboardButton("Owned By", url="t.me/google"),
         InlineKeyboardButton("More Bots", url="t.me/RaichuBots"),
     ], 
     [
