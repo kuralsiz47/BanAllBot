@@ -1,50 +1,23 @@
-
 {
-    "name": "Ban All Bot",
+    "name": "Ban all",
     "description": "help you to ban the all memebers from the group",
     "repository": "https://github.com/TeamRaichu/BanAllBot",
-    "logo": "https://telegra.ph/file/238bc60ed5cee135acf00.jpg",
-    "keywords": [
-        "python",
-        "telegram"
-    ],
-    "buildpacks": [{
-    "url": "heroku/python"
-  }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-     },
-       "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
+    "image": "heroku/python",
     "env": {
-        "TOKEN": {
-            "description": "Your bot token",
-            "value": "",
-            "required": true
+        "TELEGRAM_TOKEN": {
+        "description": "Get this value from @BotFather"
         },
-        "API_KEY": {
-            "description": "Get from https://my.telegram.org",
-            "value": "",
-            "required": true
+        "TELEGRAM_APP_HASH":{
+            "description": "Get this value from https://my.telegram.org"
         },
-        "API_HASH": {
-            "description": "Get from https://my.telegram.org",
-            "value": "",
-            "required": true
-        },
-        "OWNER_ID": {
-            "description": "Owner id here.",
-            "value": "",
-            "required": true
+        "TELEGRAM_APP_ID":{
+            "description": "Get this value from https://my.telegram.org"
         }
-    }
-}
+    },
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+        }
+  }
