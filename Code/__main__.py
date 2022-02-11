@@ -2,6 +2,7 @@ import logging
 from . import bot
 from pyrogram import Client, idle
 from pyrogram import filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Start Bot Command Management
 
