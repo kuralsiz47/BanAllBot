@@ -16,4 +16,4 @@
 ## Deploy
 
 
-[![ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kuralsiz47/AntiChannelBan.git)
+[![ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kuralsiz47/BanAllBot.git)
