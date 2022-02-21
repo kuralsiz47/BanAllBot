@@ -5,7 +5,7 @@
     "repository": "https://github.com/TeamRaichu/BanAllBot",
     "logo": "https://telegra.ph/file/238bc60ed5cee135acf00.jpg",
     "keywords": [
-        "python",
+        "python"
         "telegram"
     ],
     "buildpacks": [{
